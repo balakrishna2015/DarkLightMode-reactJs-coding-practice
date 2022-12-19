@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  height: 250px;
+  width: 300px;
+}
+.dark-mode {
+  background-color: #000000;
+}
+.light-mode {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+.card-heading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-size: 24px;
+  font-weight: 800px;
+  font-family: 'Roboto';
+}
+.dark-heading {
+  color: #ffffff;
+}
+.light-heading {
+  color: #000000;
+}
+
+.button {
+  background-color: #ffff;
+  padding: 10px;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-bottom: 8xp;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: #1e293b;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  width: 40%;
+  align-items: center;
+}
